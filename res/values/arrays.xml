@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="option">
+        <item id="elementary_school">@string/elementary_school</item>
+        <item id="middle_school">@string/middle_school</item>
+        <item id="high_school">@string/high_school</item>
+        <item id="hospital">@string/hospital</item>
+        <item id="kidcafe">@string/kidcafe</item>
+        <item id="korean_medical">@string/korean_medical</item>
+        <item id="general_hospiital">@string/general_hospital</item>
+        <item id="library">@string/library</item>
+        <item id="parking">@string/parking</item>
+        <item id="convini">@string/convini</item>
+        <item id="dentist">@string/dentist</item>
+        <item id="clinic">@string/clinic</item>
+        <item id="animal_hospital">@string/animal_hospital</item>
+        <item id="animal_phram">@string/animal_phram</item>
+        <item id="disable">@string/disable</item>
+        <item id="disable_dan">@string/disable_dan</item>
+        <item id="sago">@string/sago</item>
+        <item id="sanmo">@string/sanmo</item>
+    </string-array>
+</resources>

@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:id="@+id/top_one"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="시설"
+                android:textSize="22sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="2"/>
+
+            <TextView
+                android:id="@+id/top_two"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="가중치"
+                android:textSize="22sp"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"
+                android:layout_weight="3"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical">
+
+            <Spinner
+                android:id="@+id/first_spinner"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/option"
+                android:layout_weight="2"/>
+
+            <SeekBar
+                android:id="@+id/first_seek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:layout_weight="3"/>
+
+            <TextView
+                android:id="@+id/first_text"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"/>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical">
+
+            <Spinner
+                android:id="@+id/second_spinner"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/option"
+                android:layout_weight="2"/>
+
+            <SeekBar
+                android:id="@+id/second_seek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:layout_weight="3" />
+
+            <TextView
+                android:id="@+id/second_text"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical">
+
+            <Spinner
+                android:id="@+id/third_spinner"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/option"
+                android:layout_weight="2" />
+
+            <SeekBar
+                android:id="@+id/third_seek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:layout_weight="3" />
+
+            <TextView
+                android:id="@+id/third_text"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical">
+
+            <Spinner
+                android:id="@+id/fourth_spinner"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/option"
+                android:layout_weight="2"/>
+
+            <SeekBar
+                android:id="@+id/fourth_seek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:layout_weight="3"/>
+
+            <TextView
+                android:id="@+id/fourth_text"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:gravity="center_vertical">
+
+            <Spinner
+                android:id="@+id/fifth_spinner"
+                android:layout_width="40dp"
+                android:layout_height="wrap_content"
+                android:entries="@array/option"
+                android:layout_weight="2"/>
+
+            <SeekBar
+                android:id="@+id/fifth_seek"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:max="100"
+                android:layout_weight="3"/>
+
+            <TextView
+                android:id="@+id/fifth_text"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="0"
+                android:textAlignment="center"
+                android:textColor="@color/colorPrimaryDark"/>
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:textSize="18sp"
+            android:text="총 5가지 조건을 선택할 수 있고,\n시설 값의 중복은 허용되지 않습니다.\n가중치는 우측으로 옮길수록 높은 점수가 부여됩니다."
+            android:textColor="@color/colorPrimaryDark"/>
+    </LinearLayout>
+
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|left"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_close_black_48dp"
+        app:fab_colorNormal="@color/WHITE"
+        app:fab_colorPressed="@color/light_gray"
+        app:fab_colorRipple="@color/dimgray" />
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_check_black_48dp"
+        app:fab_colorNormal="@color/WHITE"
+        app:fab_colorPressed="@color/light_gray"
+        app:fab_colorRipple="@color/dimgray"/>
+
+
+
+</android.support.design.widget.CoordinatorLayout >

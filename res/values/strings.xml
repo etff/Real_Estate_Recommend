@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">AreaRecommend</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="elementary_school">초등학교</string>
+    <string name="middle_school">중학교</string>
+    <string name="high_school">고등학교</string>
+    <string name="hospital">병원</string>
+    <string name="kidcafe">키즈카페</string>
+    <string name="korean_medical">한의원</string>
+    <string name="general_hospital">종합병원</string>
+    <string name="library">도서관</string>
+    <string name="parking">주차장</string>
+    <string name="convini">편의점</string>
+    <string name="dentist">치과</string>
+    <string name="clinic">보건소</string>
+    <string name="animal_hospital">동물병원</string>
+    <string name="animal_phram">동물약국</string>
+    <string name="disable">장애인복지관</string>
+    <string name="disable_dan">장애인단기보호시설</string>
+    <string name="sago">사고다발지</string>
+    <string name="sanmo">산모사회서비스제공기관</string>
+</resources>

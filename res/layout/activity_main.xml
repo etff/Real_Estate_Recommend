@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.recommend.arearecommend.MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/background"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:text="원하는 지역을 찾기 위해\n돌아다닐 필요 없습니다.\n\n단순한 클릭 한번으로,\n당신이 원하던 지역들을\n추천받아 보세요!"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="26sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="120dp"
+        android:layout_margin="50dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="centerInside">
+    </ImageView>
+
+    <com.github.clans.fab.FloatingActionButton
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@drawable/ic_search_black_48dp"
+        app:fab_colorNormal="@color/WHITE"
+        app:fab_colorPressed="@color/light_gray"
+        app:fab_colorRipple="@color/dimgray" />
+
+</android.support.design.widget.CoordinatorLayout>
